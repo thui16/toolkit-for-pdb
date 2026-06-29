@@ -62,6 +62,7 @@ pdb_file   = "data/1CYB.pdb"  # path to the input PDB (relative to repo root)
 output_dir = "outputs"
 
 [smiles]
+# WIP for capping
 cap_termini  = false   # if true: add ACE to N-terminus, NME to C-terminus
 zwitterionic = false   # if true: apply NH3+ / COO- formal charges (mutually exclusive with cap_termini)
 
@@ -97,7 +98,7 @@ outputs/
     └── 1CYB_bfactor_MolLogP.pdb     # original PDB with B-factors = MolLogP per residue type
 ```
 
-To visualize in PyMOL or ChimeraX, color by B-factor after loading the output PDB.
+To visualize in PyMOL/ChimeraX/VMD, color by B-factor after loading the output PDB.
 
 ---
 
