@@ -43,7 +43,8 @@ The project uses [pixi](https://pixi.sh) to manage the environment (conda + PyPI
 # Install pixi if you don't have it
 curl -fsSL https://pixi.sh/install.sh | bash
 
-# Install all dependencies
+# Clone the repo and then install all dependencies with
+
 pixi install
 ```
 
