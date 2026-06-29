@@ -1,0 +1,12 @@
+[project]
+name        = "cyclosporin_a"
+pdb_file    = "data/1CYB.pdb"
+output_dir  = "outputs"
+
+[smiles]
+# Caps are WIP
+#cap_termini  = false
+#zwitterionic = false
+
+[bfactor]
+feature_column = "MolLogP"

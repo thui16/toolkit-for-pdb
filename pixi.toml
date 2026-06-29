@@ -8,3 +8,11 @@ version = "0.1.0"
 
 [dependencies]
 python = ">=3.14.4,<3.15"
+rdkit = "*"
+biopython = "*"
+pandas = "*"
+
+[pypi-dependencies]
+rcsb-api = ">=1.7.1, <2"
+typer = ">=0.12"
+toolkit-pdb = { path = ".", editable = true }
